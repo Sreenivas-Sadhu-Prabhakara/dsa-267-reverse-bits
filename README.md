@@ -12,6 +12,13 @@ Treat the two words as a conveyor: each step shifts the output left (making room
 
 **Complexity:** O(32) ≈ O(1); O(1) space.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
